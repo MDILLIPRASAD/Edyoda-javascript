@@ -1,0 +1,21 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+#all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0I4yPHnkX4OqFFzLz0xLAzwA6hc-kYrteg&usqp=CAU");
+    background-size: cover;
+    /* background-color: lightblue; */
+    border: 10px solid navy;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+}
